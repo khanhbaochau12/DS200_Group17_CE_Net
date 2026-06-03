@@ -1,0 +1,41 @@
+CE-Net - JSRT - 5 Independent Runs
+Loss Function: dice
+Image Size: 448x448
+Date: 2026-05-28 04:36:35
+==========================================================================================
+
+BEST RESULTS PER RUN:
+----------------------------------------------------------------------
+Run 1 (Seed: 42) - Best Epoch: 20
+ E: 0.0416 | Sen: 0.9815 | Acc: 0.9868 | Dice: 0.9788
+ Total Time : 5.9 phút (354.3s) | Avg Epoch: 17.7s
+
+Run 2 (Seed: 43) - Best Epoch: 19
+ E: 0.0413 | Sen: 0.9774 | Acc: 0.9869 | Dice: 0.9789
+ Total Time : 4.7 phút (283.7s) | Avg Epoch: 14.2s
+
+Run 3 (Seed: 44) - Best Epoch: 20
+ E: 0.0580 | Sen: 0.9933 | Acc: 0.9810 | Dice: 0.9701
+ Total Time : 4.7 phút (284.6s) | Avg Epoch: 14.2s
+
+Run 4 (Seed: 45) - Best Epoch: 20
+ E: 0.0420 | Sen: 0.9844 | Acc: 0.9866 | Dice: 0.9785
+ Total Time : 4.7 phút (279.3s) | Avg Epoch: 14.0s
+
+Run 5 (Seed: 46) - Best Epoch: 20
+ E: 0.0403 | Sen: 0.9803 | Acc: 0.9872 | Dice: 0.9794
+ Total Time : 4.7 phút (280.9s) | Avg Epoch: 14.0s
+
+
+==========================================================================================
+FINAL MEAN ± STD:
+==========================================================================================
+           E: 0.0446 ± 0.0075
+         Sen: 0.9834 ± 0.0061
+         Acc: 0.9857 ± 0.0026
+        Dice: 0.9772 ± 0.0040
+
+Average Total Training Time: 4.94 minutes
+Average Time per Epoch     : 14.83 seconds
+
+Seeds used: [42, 43, 44, 45, 46]

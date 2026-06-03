@@ -1,0 +1,41 @@
+CE-Net - LUNA - 5 Independent Runs
+Loss Function: dice
+Image Size: 448x448
+Date: 2026-05-30 06:22:54
+==========================================================================================
+
+BEST RESULTS PER RUN:
+----------------------------------------------------------------------
+Run 1 (Seed: 42) - Best Epoch: 13
+ E: 0.0385 | Sen: 0.9926 | Acc: 0.9909 | Dice: 0.9803
+ Total Time : 12.4 phút (745.3s) | Avg Epoch: 37.3s
+
+Run 2 (Seed: 43) - Best Epoch: 19
+ E: 0.0355 | Sen: 0.9887 | Acc: 0.9917 | Dice: 0.9819
+ Total Time : 11.9 phút (715.8s) | Avg Epoch: 35.8s
+
+Run 3 (Seed: 44) - Best Epoch: 19
+ E: 0.0391 | Sen: 0.9937 | Acc: 0.9907 | Dice: 0.9800
+ Total Time : 11.9 phút (713.5s) | Avg Epoch: 35.7s
+
+Run 4 (Seed: 45) - Best Epoch: 19
+ E: 0.0350 | Sen: 0.9908 | Acc: 0.9918 | Dice: 0.9822
+ Total Time : 11.9 phút (714.0s) | Avg Epoch: 35.7s
+
+Run 5 (Seed: 46) - Best Epoch: 19
+ E: 0.0352 | Sen: 0.9912 | Acc: 0.9917 | Dice: 0.9821
+ Total Time : 11.9 phút (711.9s) | Avg Epoch: 35.6s
+
+
+==========================================================================================
+FINAL MEAN ± STD:
+==========================================================================================
+           E: 0.0367 ± 0.0020
+         Sen: 0.9914 ± 0.0019
+         Acc: 0.9914 ± 0.0005
+        Dice: 0.9813 ± 0.0010
+
+Average Total Training Time: 12.00 minutes
+Average Time per Epoch     : 36.00 seconds
+
+Seeds used: [42, 43, 44, 45, 46]

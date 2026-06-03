@@ -1,0 +1,41 @@
+CE-Net - Shenzhen - 5 Independent Runs
+Loss Function: dice
+Image Size: 448x448
+Date: 2026-05-30 08:53:00
+==========================================================================================
+
+BEST RESULTS PER RUN:
+----------------------------------------------------------------------
+Run 1 (Seed: 42) - Best Epoch: 16
+ E: 0.0832 | Sen: 0.9500 | Acc: 0.9777 | Dice: 0.9563
+ Total Time : 27.6 phút (1658.9s) | Avg Epoch: 82.9s
+
+Run 2 (Seed: 43) - Best Epoch: 16
+ E: 0.0834 | Sen: 0.9492 | Acc: 0.9777 | Dice: 0.9562
+ Total Time : 25.4 phút (1523.8s) | Avg Epoch: 76.2s
+
+Run 3 (Seed: 44) - Best Epoch: 19
+ E: 0.0845 | Sen: 0.9497 | Acc: 0.9774 | Dice: 0.9557
+ Total Time : 24.4 phút (1466.9s) | Avg Epoch: 73.3s
+
+Run 4 (Seed: 45) - Best Epoch: 19
+ E: 0.0845 | Sen: 0.9488 | Acc: 0.9774 | Dice: 0.9556
+ Total Time : 24.4 phút (1464.8s) | Avg Epoch: 73.2s
+
+Run 5 (Seed: 46) - Best Epoch: 17
+ E: 0.0838 | Sen: 0.9462 | Acc: 0.9777 | Dice: 0.9560
+ Total Time : 24.2 phút (1450.4s) | Avg Epoch: 72.5s
+
+
+==========================================================================================
+FINAL MEAN ± STD:
+==========================================================================================
+           E: 0.0839 ± 0.0006
+         Sen: 0.9488 ± 0.0015
+         Acc: 0.9776 ± 0.0002
+        Dice: 0.9560 ± 0.0003
+
+Average Total Training Time: 25.22 minutes
+Average Time per Epoch     : 75.65 seconds
+
+Seeds used: [42, 43, 44, 45, 46]
